@@ -45,8 +45,8 @@ A API sobe em `http://localhost:8000`.
 ## Execução via Docker
 
 ```bash
-docker build -t FakeStore-backend .
-docker run -p 8000:8000 FakeStore-backend
+docker build -t fakestore-backend .
+docker run -p 8000:8000 fakestore-backend
 ```
 
 A API ficará disponível em `http://localhost:8000/docs`.
